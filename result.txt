@@ -1,0 +1,37 @@
+KET QUA MO PHONG
+================================================================
+[1] So sanh Butterworth va Chebyshev I (N=5, fc=1000 Hz, fs=8000 Hz, Rp=1 dB)
+----------------------------------------------------------------
+
+Butterworth
+  Hệ số b: [0.003279 0.016396 0.032792 0.032792 0.016396 0.003279]
+  Hệ số a: [ 1.       -2.474416  2.811006 -1.703772  0.544433 -0.072316]
+  |p| lớn nhất = 0.8008 -> ỔN ĐỊNH
+  Gợn băng thông (0..fc): 2.993 dB
+  Suy hao tại 2000 Hz: -38.3 dB
+  Độ trễ nhóm TB (băng thông): 5.00 mẫu, dao động 3.26 mẫu
+
+Chebyshev I (1.0 dB)
+  Hệ số b: [0.000848 0.004241 0.008482 0.008482 0.004241 0.000848]
+  Hệ số a: [ 1.       -3.582782  5.724424 -4.985236  2.35105  -0.480312]
+  |p| lớn nhất = 0.9385 -> ỔN ĐỊNH
+  Gợn băng thông (0..fc): 1.000 dB
+  Suy hao tại 2000 Hz: -54.5 dB
+  Độ trễ nhóm TB (băng thông): 6.85 mẫu, dao động 13.44 mẫu
+
+================================================================
+[2] Ung dung minh hoa 2G - 5G (bac toi thieu thoa cung mot yeu cau)
+----------------------------------------------------------------
+Thế hệ      Lọc          Bậc  Gợn/sụt(dB)      Méo độ trễ nhóm (% của 1/fp)
+2G (GSM)    Butterworth    5         3.00                              30.7
+2G (GSM)    Chebyshev I    4         3.00                             162.0
+
+3G (WCDMA)  Butterworth   10         0.99                              81.3
+3G (WCDMA)  Chebyshev I    6         1.00                             222.0
+
+4G (LTE)    Butterworth   28         0.50                             319.6
+4G (LTE)    Chebyshev I   11         0.50                             677.9
+
+5G (NR)     Butterworth   49         0.25                             616.0
+5G (NR)     Chebyshev I   15         0.25                            1068.7
+
