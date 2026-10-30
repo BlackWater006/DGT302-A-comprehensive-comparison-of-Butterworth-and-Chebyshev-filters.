@@ -1,7 +1,7 @@
 
 <div align="center">
 
-# DGT-18
+# DGT302-GroupProject
 ## A Comprehensive Comparison of Butterworth and Chebyshev Type I Filters
 
 **Digital Signal Processing | IIR Filter Design | Frequency-Domain Analysis | 2G–5G Parameter-Based Illustration**
